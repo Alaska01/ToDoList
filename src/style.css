@@ -2,11 +2,13 @@ body {
   text-align: center;
   margin: 20px;
 }
+
 h3 {
-  color: #333333;
+  color: #333;
   background: #f5f5f5;
   padding: 20px;
 }
+
 img {
   max-height: 500px;
 }
