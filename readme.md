@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-[Live Demo](https://www.xyz.html)
+[Live Demo](https://aye-todolist.netlify.app/)
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
