@@ -37,7 +37,7 @@ To get a local copy up and running follow these simple example steps.
 - npm webpack --watch
 - npm run test
 ```
-
+![screenshot](testing.png)
 ### Usage
 
 - Open the index.html file in any browser or edit using Visual Code or the preference IDE for web development
