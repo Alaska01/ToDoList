@@ -1,0 +1,136 @@
+
+.active {
+  display: block;
+}
+
+.inactive,
+#todolist-form {
+  display: none;
+}
+
+.all-tasks {
+  width: 50%;
+}
+
+#container {
+  width: 30%;
+  margin: auto;
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 3rem;
+}
+
+.active-list {
+  font-weight: bold;
+  border-bottom: 2px solid orangered;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btns button {
+  margin: 20px;
+}
+
+#content {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.todo {
+  width: 100%;
+  border: 0;
+  padding: 20px;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: left;
+}
+
+.card-body,
+.todo {
+  position: relative;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.16), 0 4px 4px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.todo:hover {
+  background: #ccc;
+  color: white;
+}
+
+.card-body:hover {
+  box-shadow: 1px 14px 28px rgba(0, 0, 0, 0.25), 1px 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.card-body div {
+  padding: 10px 10px;
+}
+
+.card-body button {
+  width: 50%;
+  padding: 10px 0;
+  border: 1px solid black;
+}
+
+.card-body button:hover {
+  background: blue;
+  font-weight: bold;
+}
+
+.edit {
+  margin-top: 16px;
+}
+
+#Submit:hover,
+.update:hover,
+.cancel:hover {
+  background-color: blue;
+  color: white;
+}
+
+#Title,
+#Description,
+input[name="projectTitle"] {
+  width: 100%;
+  padding: 14px 12px;
+  font-size: 18px;
+  margin-top: 16px;
+  border: 1px solid black;
+}
+
+.fa {
+  margin-right: 14px;
+}
+
+.fa.fa-caret-down {
+  float: right;
+}
+
+.card-body.projects {
+  padding: 3% 5%;
+  margin-bottom: 5%;
+  border-bottom: 2px solid black;
+}
+
+.todoLi {
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 2%;
+}
+
+.todoLi li {
+  margin-bottom: 2%;
+}
+
+.titleProject {
+  font-size: 27px;
+  width: 100%;
+  background: whitesmoke;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  margin-bottom: 2%;
+  color: #9b9292;
+}
