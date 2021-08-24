@@ -28,6 +28,16 @@ To get a local copy up and running follow these simple example steps.
 - npm install
 - npm webpack --watch
 ```
+### Testing
+
+```
+- git clone https://github.com/Alaska01/ToDoList;
+- cd ToDoList/
+- npm install --save-dev jest
+- npm webpack --watch
+- npm run test
+```
+![screenshot](testing.png)
 ### Usage
 
 - Open the index.html file in any browser or edit using Visual Code or the preference IDE for web development
